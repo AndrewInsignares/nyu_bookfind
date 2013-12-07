@@ -14,6 +14,9 @@ table{
 #floor1a{
 	width:20%; padding-left:24px;padding-top:24px;
 }
+.floor1a{
+	width:20%; padding-left:24px;padding-top:24px;
+}
 #floor1aa{
 	width:20%; padding-left:24px;padding-top:24px;padding-bottom:24px;
 }
@@ -45,7 +48,7 @@ table{
 	text-align:center;
 }
 table tr td{
-	margin:0;padding:0;padding-top:0;border:0;border:1px #000 solid;
+	margin:0;padding:0;padding-top:0;border:0;
 }
 #section{
 	background:purple;
@@ -53,13 +56,162 @@ table tr td{
 #sectionMusic{
 	background:purple;
 }
+#sectionReference{
+	background:purple;
+}
+#sectionReference:hover{
+	background:orange;
+}
 #sectionNews{
 	background:purple;
+}
+#sectionNews:hover{
+	background:orange;
 }
 #ADJOVERSIZE{
 	background:purple;	
 }
-
+#ADJOVERSIZE:hover{
+	background:orange;	
+}
+.MMT{
+	background:purple;
+}
+.MMT:hover{
+	background:orange;
+}
+.DFCB{
+	background:purple;
+}
+.DFCB:hover{
+	background:orange;
+}
+.CBBF{
+	background:purple;
+}
+.CBBF:hover{
+	background:orange;
+}
+.DFDJ{
+	background:purple;
+}
+.DFDJ:hover{
+	background:orange;
+}
+.BFAP{
+	background:purple;
+}
+.BFAP:hover{
+	background:orange;
+}
+.AAP{
+	background:purple;
+}
+.AAP:hover{
+	background:orange;
+}
+.EDS{
+	background:purple;
+}
+.EDS:hover{
+	background:orange;
+}
+.DSDJK{
+	background:purple;
+}
+.DSDJK:hover{
+	background:orange;
+}
+.EF{
+	background:purple;
+}
+.EF:hover{
+	background:orange;
+}
+.USGOV{
+	background:purple;
+}
+.USGOV:hover{
+	background:orange;
+}
+.HXHC{
+	background:purple;
+}
+.HXHC:hover{
+	background:orange;
+}
+.HCF1{
+	background:purple;
+}
+.HCF1:hover{
+	background:orange;
+}
+.JL{
+	background:purple;
+}
+.JL:hover{
+	background:orange;
+}
+.PRPN{
+	background:purple;
+}
+.PRPN:hover{
+	background:orange;
+}
+.PNPG{
+	background:purple;
+}
+.PNPG:hover{
+	background:orange;
+}
+.PRPZ{
+	background:purple;
+}
+.PRPZ:hover{
+	background:orange;
+}
+.PGP{
+	background:purple;
+}
+.PGP:hover{
+	background:orange;
+}
+.OVERSIZEP{
+	background:purple;
+}
+.OVERSIZEP:hover{
+	background:orange;
+}
+.RZQL{
+	background:purple;
+}
+.RZQL:hover{
+	background:orange;
+}
+.QLNK{
+	background:purple;
+}
+.QLNK:hover{
+	background:orange;
+}
+.SZ{
+	background:purple;
+}
+.SZ:hover{
+	background:orange;
+}
+.OVERSIZEZ{
+	background:purple;
+}
+.OVERSIZEZ:hover{
+	background:orange;
+}
+.NANK{
+	background:purple;
+}
+.NANK:hover{
+	background:orange;
+}
 #section:hover{
 	background:orange;
 }

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Foundation 4</title>
+
+  
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/bookIt.css">
+  
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script>
+
+  	function FirstFloor () {
+		window.location.replace('first.html');
+  	}
+  	function SecondFloor () {
+		window.location.replace('second.html');
+  	}
+  	function ThirdFloor () {
+		window.location.replace('second.html');
+  	}
+  	function FourthFloor () {
+		window.location.replace('second.html');
+  	}
+  	function FifthFloor () {
+		window.location.replace('second.html');
+  	}
+  	function SixthFloor () {
+		window.location.replace('second.html');
+  	}
+  	function SeventhFloor () {
+		window.location.replace('seventh.html');
+  	}
+  	function EigthFloor () {
+		window.location.replace('second.html');
+  	}
+  	function NinthFloor () {
+		window.location.replace('second.html');
+  	}
+
+  </script>	
+  
+  <script>
+  
+  $(document).ready( function() {
+    $("#load_table").on("click", function() { 
+    	alert('tester');
+        $("#table_loader").load("table_test2.html");
+    });
+});
+  </script>
+
+</head>
+<body>
+
+	<div class="row">
+		<div class="large-12 columns">
+			<div >
+				<img src="images/NYU_logo.png" width="40%;" />
+			</div>
+			<h2 >NYU Bookfind</h2>
+			<p>This is version .1</p>
+			
+			<hr />
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-8 columns">
+			<h3>Third Floor</h3>
+
+			<!-- Grid Example -->
+			<div class="row">
+				<div class="large-12 columns">
+					<div class="panel" id="table_loader" style="background:#ffffff;width:100%;height:600px;">
+						<table style="width:100%;height:100%;" >
+						<tr style="height:25%;">
+							<td id="grid1" style="width:20%; padding-left:24px;padding-top:24px;">
+								
+							</td>
+							<td id="grid1" style="width:60%; padding-top:24px;font-size:24px;text-align:center;">
+								<div style="background:grey;width:220px;height:auto;text-align:center;margin:auto;padding:8px;">
+								Fales Library and Special Collections
+								</div>
+							</td>
+							<td id="grid1" style="width:20%;padding-top:56px;">
+
+							</td>
+						</tr>
+						<tr>
+							<td id="grid1" style="width:20%; ">
+								
+							</td>
+							<td id="grid1" style="width:60%;border:none;">
+								<div "floor_number">
+									Second Floor
+								</div>
+								<div id="stairs_right">
+									<img style="margin-left:-50%;" src="images/stairs_right.png" width="25%" />
+								</div>
+								
+								<div id="elevators" style="">
+									<img style="margin-left:-52%;" src="images/elevator.png" width="6%" />
+									
+									<img style="margin-left:20%;" src="images/elevator.png" width="6%" />
+								</div>
+								
+								<div id="stairs_left" style="">
+									<img style="margin-left:50%;" src="images/stairs_left.png" width="25%" />
+								</div>
+							</td>
+							<td id="grid1" style="width:20%;">
+
+							</td>
+						</tr>
+						<tr>
+							<td id="grid1" style="width:20%; padding-left:24px;padding-right:24px;">
+								<div id="section" style="width:100%;height:100%;float:left;padding-top:24px;">
+										Current Periodicals & Newspapers
+									</div>
+
+								
+							</td>
+							<td id="grid1" style="text-align:center;font-size:24px;width:60%;border:none;">
+								Atrium
+							</td>
+							<td id="grid1" style="width:20%;" >
+								<div style="text-align:center; height:100%;padding-top:24px;padding-left:12px;">
+									<div style="text-align:center;font-size:20px;width:80px;line-height:1.2">
+										Tracey & Barry Gallery
+									</div>
+								</div>
+								
+							</td>
+						</tr>
+						<tr>
+							<td id="grid1" style="width:20%;">
+								<div style="position:absolute;text-align:center;margin-left:-13%;padding-top:2.5%;">
+										<img src="images/bathroom.png" width="13%" />
+								</div>								
+							</td>
+							<td id="grid1" style="width:60%;">
+								
+								<div style="width:100%;margin-top:-12%;">
+									<div id="stair_right2">
+									<img style="margin-left:-50%;" src="images/stairs_right.png" width="25%" />
+									</div>
+									
+									<div id="stair_left2">
+									<img style="margin-left:50%;" src="images/stairs_left.png" width="25%" />
+									</div>
+									
+								</div>
+
+							</td>
+							<td id="grid1" style="width:20%; padding-left:24px;padding-right:24px;padding-bottom:24px;">
+
+
+							</td>
+						</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="large-4 columns">
+			<h4>This is NYU Bookfind</h4>
+			<p>Search your book below</p>
+
+			<h4>Search</h4>
+			<p>Search by Author, Title, Call#</p>
+			
+			<h4>Bobst Libary</h4>
+
+			<p id="floorLevel"><a href="#" onclick="FirstFloor();" >First Floor</a></p>
+			<p id="floorLevel"><a href="#" onclick="SecondFloor();" >Second Floor</a></p>
+			<p id="floorLevel"><a href="#" onclick="ThirdFloor();" >Third Floor</a></p>
+			<p id="floorLevel"><a href="#" onclick="FourthFloor();" >Fourth Floor</a></p>
+			<p id="floorLevel"><a href="#" onclick="FifthFloor();" >Fifth Floor</a></p>
+			<p id="floorLevel"><a href="#" onclick="SixthFloor();" >Sixth Floor</a></p>
+			<p id="floorLevel"><a href="#" onclick="SeventhFloor();" >Seventh Floor</a></p>
+			<p id="floorLevel"><a href="#" onclick="EigthFloor();" >Eigth Floor</a></p>
+			<p id="floorLevel"><a href="#" onclick="NinthFloor();" >Ninth Floor</a></p>
+			<p id="floorLevel"><a href="#" id="load_table" >Test Floor</a></p>
+
+		</div>
+
+	</div>
+	
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
